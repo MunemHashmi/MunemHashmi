@@ -1,8 +1,8 @@
-- 👋 Hi, I’m @MunemHashmi
-- 👀 I’m interested in Blockchain, Web 3.0
-- 💞️ I’m looking to collaborate on Open Source Projects
 
-<!---
-MunemHashmi/MunemHashmi is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+# Hi, I'm Munem Hashmi! 👋
+- I'm a Full Stack Blockchain Developer who loves Open Source!
+- I'm currently a senior at National University of Computer & Emerging Sciences, majoring in Computer Science.
+- I'm interested in collaborating on open source projects.
+- I think it would be fun to work on a project with other developers.
+- If you're interested in collaborating, let me know!
+
