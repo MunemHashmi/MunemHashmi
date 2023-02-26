@@ -1,5 +1,5 @@
 
-# Hi, I'm Munem Hashmi! 👋
+# Hi, I'm Munem Hashm! 👋
 - I'm a Full Stack Developer who loves Open Source!
 - I'm currently a senior at National University of Computer & Emerging Sciences, majoring in Computer Science.
 - I'm interested in collaborating on open source projects.
