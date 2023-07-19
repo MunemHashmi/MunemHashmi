@@ -23,7 +23,6 @@ Welcome to my GitHub profile! I am a passionate Computer Science graduate with a
 
 ## 📫 Contact Me
 
-- 📧 Email: munem.hashmi@gmail.com
-- 💼 LinkedIn: https://www.linkedin.com/in/munemhashmi/
+- 💼 LinkedIn: https://www.linkedin.com/in/munemhashmi
 
 Feel free to explore my repositories and connect with me. Let's collaborate and build something amazing together!
