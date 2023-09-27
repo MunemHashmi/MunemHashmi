@@ -14,8 +14,6 @@ Welcome to my GitHub profile! I am a passionate Computer Science graduate with a
 - Programming Languages: Python, Java, C++
 - Software Development: Agile Methodologies, Object-Oriented Design, Git
 - Artificial Intelligence: Machine Learning, Deep Learning, Natural Language Processing
-- Data Science: Data Analysis, Data Visualization, Statistical Modeling
-- Data Engineering: Data Extraction, Transformation, Loading (ETL), Database Management
 
 ## 📚 Education
 
