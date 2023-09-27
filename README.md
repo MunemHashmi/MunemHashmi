@@ -1,6 +1,6 @@
 # Hello, I'm Munem Hashmi 👋
 
-Welcome to my GitHub profile! I am a passionate Computer Science graduate with a strong interest in Software Engineering, Artificial Intelligence, Data Science, and Data Engineering. 
+Welcome to my GitHub profile! I am a passionate Computer Science graduate with a strong interest in Software Engineering, and Artificial Intelligence.
 
 ## 🧑‍💻 About Me
 
