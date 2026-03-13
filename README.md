@@ -5,19 +5,19 @@
   <a href="https://github.com/MunemHashmi?tab=followers"><img src="https://img.shields.io/badge/Followers-6-181717?style=for-the-badge&logo=github" /></a>
   <a href="https://github.com/MunemHashmi?tab=repositories"><img src="https://img.shields.io/badge/Public%20Repos-24-181717?style=for-the-badge&logo=github" /></a>
   <a href="https://github.com/MunemHashmi?tab=repositories"><img src="https://img.shields.io/badge/Stars%20Earned-9-f5b301?style=for-the-badge&logo=github" /></a>
-  <a href="https://github.com/pulls?q=is%3Apr+author%3AMunemHashmi"><img src="https://img.shields.io/badge/Repos%20via%20PRs-9-2f81f7?style=for-the-badge&logo=github" /></a>
+  <a href="https://github.com/MunemHashmi"><img src="https://komarev.com/ghpvc/?username=MunemHashmi&style=for-the-badge&color=0e75b6" /></a>
 </p>
 <p>
   <a href="https://github.com/pulls?q=is%3Apr+author%3AMunemHashmi"><img src="https://img.shields.io/badge/Merge%20Rate-42.9%25-2ea043?style=for-the-badge&logo=git" /></a>
   <a href="https://github.com/pulls?q=is%3Apr+author%3AMunemHashmi"><img src="https://img.shields.io/badge/PRs%20Merged-9-238636?style=for-the-badge&logo=github" /></a>
   <a href="https://github.com/pulls?q=is%3Apr+author%3AMunemHashmi"><img src="https://img.shields.io/badge/Open%20PRs-15-f85149?style=for-the-badge&logo=github" /></a>
-  <a href="https://github.com/MunemHashmi"><img src="https://komarev.com/ghpvc/?username=MunemHashmi&style=for-the-badge&color=0e75b6" /></a>
+  <a href="https://github.com/pulls?q=is%3Apr+author%3AMunemHashmi"><img src="https://img.shields.io/badge/Repos%20via%20PRs-9-2f81f7?style=for-the-badge&logo=github" /></a>
 </p>
 <!-- BADGES:END -->
 
-## Merge Radar
-
 > Refreshed hourly from public GitHub activity.
+
+## Merge Radar
 
 <!-- STATS:START -->
 <table>
@@ -72,7 +72,7 @@
     <td valign="top">
       <sub><b>30-day pulse</b><br/>35 PRs opened<br/>9 PRs merged</sub>
       <br/><br/>
-      <sub>Updated 2026-03-13 19:13 UTC</sub>
+      <sub>Updated 2026-03-13 19:19 UTC</sub>
     </td>
   </tr>
 </table>
@@ -91,6 +91,48 @@
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td>
+        <a href="https://github.com/prometheus/prometheus/pulls?q=is%3Apr+author%3AMunemHashmi+is%3Amerged"><img src="https://avatars.githubusercontent.com/u/3380462?v=4&s=20" width="20" height="20" /> <strong>prometheus/prometheus</strong></a>
+      </td>
+      <td align="center">
+        <img src="https://img.shields.io/badge/1%20merged-8957e5?style=flat-square&logo=git&logoColor=white" />
+      </td>
+      <td align="center">
+        <img src="https://img.shields.io/badge/%E2%AD%90%2063.2K-f5b301?style=flat-square" />
+      </td>
+      <td align="center">
+        <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" />
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://github.com/langchain-ai/langchainjs/pulls?q=is%3Apr+author%3AMunemHashmi+is%3Amerged"><img src="https://avatars.githubusercontent.com/u/126733545?v=4&s=20" width="20" height="20" /> <strong>langchain-ai/langchainjs</strong></a>
+      </td>
+      <td align="center">
+        <img src="https://img.shields.io/badge/1%20merged-8957e5?style=flat-square&logo=git&logoColor=white" />
+      </td>
+      <td align="center">
+        <img src="https://img.shields.io/badge/%E2%AD%90%2017.2K-f5b301?style=flat-square" />
+      </td>
+      <td align="center">
+        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://github.com/kedacore/keda/pulls?q=is%3Apr+author%3AMunemHashmi+is%3Amerged"><img src="https://avatars.githubusercontent.com/u/49917779?v=4&s=20" width="20" height="20" /> <strong>kedacore/keda</strong></a>
+      </td>
+      <td align="center">
+        <img src="https://img.shields.io/badge/1%20merged-8957e5?style=flat-square&logo=git&logoColor=white" />
+      </td>
+      <td align="center">
+        <img src="https://img.shields.io/badge/%E2%AD%90%2010K-f5b301?style=flat-square" />
+      </td>
+      <td align="center">
+        <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" />
+      </td>
+    </tr>
     <tr>
       <td>
         <a href="https://github.com/openclaw/clawhub/pulls?q=is%3Apr+author%3AMunemHashmi+is%3Amerged"><img src="https://avatars.githubusercontent.com/u/252820863?v=4&s=20" width="20" height="20" /> <strong>openclaw/clawhub</strong></a>
@@ -114,48 +156,6 @@
       </td>
       <td align="center">
         <img src="https://img.shields.io/badge/%E2%AD%90%2078-f5b301?style=flat-square" />
-      </td>
-      <td align="center">
-        <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" />
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <a href="https://github.com/kedacore/keda/pulls?q=is%3Apr+author%3AMunemHashmi+is%3Amerged"><img src="https://avatars.githubusercontent.com/u/49917779?v=4&s=20" width="20" height="20" /> <strong>kedacore/keda</strong></a>
-      </td>
-      <td align="center">
-        <img src="https://img.shields.io/badge/1%20merged-8957e5?style=flat-square&logo=git&logoColor=white" />
-      </td>
-      <td align="center">
-        <img src="https://img.shields.io/badge/%E2%AD%90%2010K-f5b301?style=flat-square" />
-      </td>
-      <td align="center">
-        <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" />
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <a href="https://github.com/langchain-ai/langchainjs/pulls?q=is%3Apr+author%3AMunemHashmi+is%3Amerged"><img src="https://avatars.githubusercontent.com/u/126733545?v=4&s=20" width="20" height="20" /> <strong>langchain-ai/langchainjs</strong></a>
-      </td>
-      <td align="center">
-        <img src="https://img.shields.io/badge/1%20merged-8957e5?style=flat-square&logo=git&logoColor=white" />
-      </td>
-      <td align="center">
-        <img src="https://img.shields.io/badge/%E2%AD%90%2017.2K-f5b301?style=flat-square" />
-      </td>
-      <td align="center">
-        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <a href="https://github.com/prometheus/prometheus/pulls?q=is%3Apr+author%3AMunemHashmi+is%3Amerged"><img src="https://avatars.githubusercontent.com/u/3380462?v=4&s=20" width="20" height="20" /> <strong>prometheus/prometheus</strong></a>
-      </td>
-      <td align="center">
-        <img src="https://img.shields.io/badge/1%20merged-8957e5?style=flat-square&logo=git&logoColor=white" />
-      </td>
-      <td align="center">
-        <img src="https://img.shields.io/badge/%E2%AD%90%2063.2K-f5b301?style=flat-square" />
       </td>
       <td align="center">
         <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" />
@@ -193,6 +193,8 @@
     <img src="https://streak-stats.demolab.com?user=MunemHashmi&hide_border=true&theme=transparent" />
   </picture>
 </div>
+
+<br/>
 
 <div align="center">
   <picture>

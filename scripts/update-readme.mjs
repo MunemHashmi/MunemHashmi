@@ -187,27 +187,27 @@ async function main() {
     mergedByRepo.get(fullName).count += 1;
   }
 
-  // Fetch repo details for merged contributions and sort by count desc
-  const mergedRepoEntries = [...mergedByRepo.values()].sort((a, b) => b.count - a.count);
-  const mergedRepoDetails = await Promise.all(
+  // Fetch repo details for merged contributions and sort by stars desc
+  const mergedRepoEntries = [...mergedByRepo.values()];
+  const mergedRepoDetails = (await Promise.all(
     mergedRepoEntries.map(async (entry) => {
       const repo = await gh(`/repos/${entry.fullName}`);
       return { ...entry, repo };
     }),
-  );
+  )).sort((a, b) => b.repo.stargazers_count - a.repo.stargazers_count);
 
   const badgeBlock = [
     '<p>',
     `  <a href="https://github.com/${owner}?tab=followers"><img src="${badgeUrl('Followers', formatCompactNumber(profile.followers), '181717', { logo: 'github' })}" /></a>`,
     `  <a href="https://github.com/${owner}?tab=repositories"><img src="${badgeUrl('Public Repos', String(profile.public_repos), '181717', { logo: 'github' })}" /></a>`,
     `  <a href="https://github.com/${owner}?tab=repositories"><img src="${badgeUrl('Stars Earned', formatCompactNumber(totalStars), 'f5b301', { logo: 'github' })}" /></a>`,
-    `  <a href="${contributionSearchUrl}"><img src="${badgeUrl('Repos via PRs', String(reposContributed), '2f81f7', { logo: 'github' })}" /></a>`,
+    `  <a href="https://github.com/${owner}"><img src="https://komarev.com/ghpvc/?username=${owner}&style=for-the-badge&color=0e75b6" /></a>`,
     '</p>',
     '<p>',
     `  <a href="${contributionSearchUrl}"><img src="${badgeUrl('Merge Rate', formatPercent(acceptanceRate), '2ea043', { logo: 'git' })}" /></a>`,
     `  <a href="${contributionSearchUrl}"><img src="${badgeUrl('PRs Merged', String(mergedPRs), '238636', { logo: 'github' })}" /></a>`,
     `  <a href="${contributionSearchUrl}"><img src="${badgeUrl('Open PRs', String(openPRs), 'f85149', { logo: 'github' })}" /></a>`,
-    `  <a href="https://github.com/${owner}"><img src="https://komarev.com/ghpvc/?username=${owner}&style=for-the-badge&color=0e75b6" /></a>`,
+    `  <a href="${contributionSearchUrl}"><img src="${badgeUrl('Repos via PRs', String(reposContributed), '2f81f7', { logo: 'github' })}" /></a>`,
     '</p>',
   ].join('\n');
 
