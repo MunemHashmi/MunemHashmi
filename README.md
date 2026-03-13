@@ -15,25 +15,75 @@
 </p>
 <!-- BADGES:END -->
 
-<!-- LANGS:START -->
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![Shell](https://img.shields.io/badge/Shell-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
-![Jupyter Notebook](https://img.shields.io/badge/Jupyter%20Notebook-F37626?style=flat-square&logo=jupyter&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css3&logoColor=white)
-<!-- LANGS:END -->
-
 ## Merged Contributions
 
 <!-- MERGED:START -->
-| Project | Merged PRs | Tech |
-|---|---|---|
-| <img src="https://avatars.githubusercontent.com/u/252820863?v=4&s=20" width="20" height="20" style="vertical-align: middle;" /> [`openclaw/clawhub`](https://github.com/openclaw/clawhub) | ![Merged](https://img.shields.io/badge/4%20merged-8957e5?style=flat-square&logo=github) | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) |
-| <img src="https://avatars.githubusercontent.com/u/21992475?v=4&s=20" width="20" height="20" style="vertical-align: middle;" /> [`pulumi/pulumi-command`](https://github.com/pulumi/pulumi-command) | ![Merged](https://img.shields.io/badge/2%20merged-8957e5?style=flat-square&logo=github) | ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white) |
-| <img src="https://avatars.githubusercontent.com/u/49917779?v=4&s=20" width="20" height="20" style="vertical-align: middle;" /> [`kedacore/keda`](https://github.com/kedacore/keda) | ![Merged](https://img.shields.io/badge/1%20merged-8957e5?style=flat-square&logo=github) | ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white) |
-| <img src="https://avatars.githubusercontent.com/u/126733545?v=4&s=20" width="20" height="20" style="vertical-align: middle;" /> [`langchain-ai/langchainjs`](https://github.com/langchain-ai/langchainjs) | ![Merged](https://img.shields.io/badge/1%20merged-8957e5?style=flat-square&logo=github) | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) |
-| <img src="https://avatars.githubusercontent.com/u/3380462?v=4&s=20" width="20" height="20" style="vertical-align: middle;" /> [`prometheus/prometheus`](https://github.com/prometheus/prometheus) | ![Merged](https://img.shields.io/badge/1%20merged-8957e5?style=flat-square&logo=github) | ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white) |
+<table>
+  <thead>
+    <tr>
+      <th align="left">Project</th>
+      <th align="center">Merged PRs</th>
+      <th align="center">Tech</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <a href="https://github.com/openclaw/clawhub"><img src="https://avatars.githubusercontent.com/u/252820863?v=4&s=20" width="20" height="20" /> <strong>openclaw/clawhub</strong></a>
+      </td>
+      <td align="center">
+        <img src="https://img.shields.io/badge/4%20merged-238636?style=flat-square&logo=git&logoColor=white" />
+      </td>
+      <td align="center">
+        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://github.com/pulumi/pulumi-command"><img src="https://avatars.githubusercontent.com/u/21992475?v=4&s=20" width="20" height="20" /> <strong>pulumi/pulumi-command</strong></a>
+      </td>
+      <td align="center">
+        <img src="https://img.shields.io/badge/2%20merged-238636?style=flat-square&logo=git&logoColor=white" />
+      </td>
+      <td align="center">
+        <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" />
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://github.com/kedacore/keda"><img src="https://avatars.githubusercontent.com/u/49917779?v=4&s=20" width="20" height="20" /> <strong>kedacore/keda</strong></a>
+      </td>
+      <td align="center">
+        <img src="https://img.shields.io/badge/1%20merged-238636?style=flat-square&logo=git&logoColor=white" />
+      </td>
+      <td align="center">
+        <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" />
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://github.com/langchain-ai/langchainjs"><img src="https://avatars.githubusercontent.com/u/126733545?v=4&s=20" width="20" height="20" /> <strong>langchain-ai/langchainjs</strong></a>
+      </td>
+      <td align="center">
+        <img src="https://img.shields.io/badge/1%20merged-238636?style=flat-square&logo=git&logoColor=white" />
+      </td>
+      <td align="center">
+        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://github.com/prometheus/prometheus"><img src="https://avatars.githubusercontent.com/u/3380462?v=4&s=20" width="20" height="20" /> <strong>prometheus/prometheus</strong></a>
+      </td>
+      <td align="center">
+        <img src="https://img.shields.io/badge/1%20merged-238636?style=flat-square&logo=git&logoColor=white" />
+      </td>
+      <td align="center">
+        <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" />
+      </td>
+    </tr>
+  </tbody>
+</table>
 <!-- MERGED:END -->
 
 ## Merge Radar
@@ -93,7 +143,7 @@
     <td valign="top">
       <sub><b>30-day pulse</b><br/>35 PRs opened<br/>9 PRs merged</sub>
       <br/><br/>
-      <sub>Updated 2026-03-13 18:58 UTC</sub>
+      <sub>Updated 2026-03-13 19:02 UTC</sub>
     </td>
   </tr>
 </table>

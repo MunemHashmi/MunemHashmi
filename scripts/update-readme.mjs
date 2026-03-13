@@ -143,25 +143,6 @@ const langMeta = {
   PostgreSQL:       { color: '4169E1', logo: 'postgresql' },
 };
 
-function buildLangBadges(repos) {
-  const counts = {};
-  for (const repo of repos) {
-    const lang = repo.language;
-    if (lang) counts[lang] = (counts[lang] || 0) + 1;
-  }
-
-  return Object.entries(counts)
-    .sort((a, b) => b[1] - a[1])
-    .slice(0, 8)
-    .map(([lang]) => {
-      const meta = langMeta[lang] || { color: '555555' };
-      const encoded = lang.replace(/ /g, '%20').replace(/#/g, '%23').replace(/\+/g, '%2B');
-      const textColor = meta.textColor || 'white';
-      const logoPart = meta.logo ? `&logo=${meta.logo}&logoColor=${textColor}` : '';
-      return `![${lang}](https://img.shields.io/badge/${encoded}-${meta.color}?style=flat-square${logoPart})`;
-    })
-    .join('\n');
-}
 
 async function main() {
   const [
@@ -230,9 +211,7 @@ async function main() {
     '</p>',
   ].join('\n');
 
-  const langBadges = buildLangBadges(ownedRepos);
-
-  // Merged contributions table
+  // Merged contributions table — HTML table matching overall design
   const mergedContribRows = mergedRepoDetails.map(({ fullName, count, repo }) => {
     const lang = repo.language || '';
     const meta = langMeta[lang] || { color: '555555' };
@@ -240,18 +219,37 @@ async function main() {
     const textColor = meta.textColor || 'white';
     const logoPart = meta.logo ? `&logo=${meta.logo}&logoColor=${textColor}` : '';
     const langBadge = lang
-      ? `![${lang}](https://img.shields.io/badge/${encodedLang}-${meta.color}?style=flat-square${logoPart})`
+      ? `<img src="https://img.shields.io/badge/${encodedLang}-${meta.color}?style=flat-square${logoPart}" />`
       : '';
-    const mergedBadge = `![Merged](https://img.shields.io/badge/${count}%20merged-8957e5?style=flat-square&logo=github)`;
     const avatarUrl = `${repo.owner.avatar_url}&s=20`;
-    const projectCol = `<img src="${avatarUrl}" width="20" height="20" style="vertical-align: middle;" /> [\`${fullName}\`](${repo.html_url})`;
-    return `| ${projectCol} | ${mergedBadge} | ${langBadge} |`;
+    return [
+      '    <tr>',
+      '      <td>',
+      `        <a href="${repo.html_url}"><img src="${avatarUrl}" width="20" height="20" /> <strong>${fullName}</strong></a>`,
+      '      </td>',
+      '      <td align="center">',
+      `        <img src="https://img.shields.io/badge/${count}%20merged-238636?style=flat-square&logo=git&logoColor=white" />`,
+      '      </td>',
+      '      <td align="center">',
+      `        ${langBadge}`,
+      '      </td>',
+      '    </tr>',
+    ].join('\n');
   });
 
   const mergedContribBlock = [
-    '| Project | Merged PRs | Tech |',
-    '|---|---|---|',
+    '<table>',
+    '  <thead>',
+    '    <tr>',
+    '      <th align="left">Project</th>',
+    '      <th align="center">Merged PRs</th>',
+    '      <th align="center">Tech</th>',
+    '    </tr>',
+    '  </thead>',
+    '  <tbody>',
     ...mergedContribRows,
+    '  </tbody>',
+    '</table>',
   ].join('\n');
 
   const now = formatTimestamp(new Date());
@@ -338,7 +336,6 @@ async function main() {
   let readme = await fs.readFile(readmePath, 'utf8');
 
   readme = replaceBlock(readme, '<!-- BADGES:START -->', '<!-- BADGES:END -->', badgeBlock);
-  readme = replaceBlock(readme, '<!-- LANGS:START -->', '<!-- LANGS:END -->', langBadges);
   readme = replaceBlock(readme, '<!-- MERGED:START -->', '<!-- MERGED:END -->', mergedContribBlock);
   readme = replaceBlock(readme, '<!-- STATS:START -->', '<!-- STATS:END -->', statsBlock);
   readme = replaceBlock(readme, '<!-- OSS_SIGNAL:START -->', '<!-- OSS_SIGNAL:END -->', ossSignalBlock);
