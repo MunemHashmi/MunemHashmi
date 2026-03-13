@@ -72,7 +72,7 @@
     <td valign="top">
       <sub><b>30-day pulse</b><br/>35 PRs opened<br/>9 PRs merged</sub>
       <br/><br/>
-      <sub>Updated 2026-03-13 19:06 UTC</sub>
+      <sub>Updated 2026-03-13 19:09 UTC</sub>
     </td>
   </tr>
 </table>
@@ -95,7 +95,7 @@
         <a href="https://github.com/openclaw/clawhub"><img src="https://avatars.githubusercontent.com/u/252820863?v=4&s=20" width="20" height="20" /> <strong>openclaw/clawhub</strong></a>
       </td>
       <td align="center">
-        <img src="https://img.shields.io/badge/4%20merged-238636?style=flat-square&logo=git&logoColor=white" />
+        <img src="https://img.shields.io/badge/4%20merged-8957e5?style=flat-square&logo=git&logoColor=white" />
       </td>
       <td align="center">
         <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
@@ -106,7 +106,7 @@
         <a href="https://github.com/pulumi/pulumi-command"><img src="https://avatars.githubusercontent.com/u/21992475?v=4&s=20" width="20" height="20" /> <strong>pulumi/pulumi-command</strong></a>
       </td>
       <td align="center">
-        <img src="https://img.shields.io/badge/2%20merged-238636?style=flat-square&logo=git&logoColor=white" />
+        <img src="https://img.shields.io/badge/2%20merged-8957e5?style=flat-square&logo=git&logoColor=white" />
       </td>
       <td align="center">
         <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" />
@@ -117,7 +117,7 @@
         <a href="https://github.com/kedacore/keda"><img src="https://avatars.githubusercontent.com/u/49917779?v=4&s=20" width="20" height="20" /> <strong>kedacore/keda</strong></a>
       </td>
       <td align="center">
-        <img src="https://img.shields.io/badge/1%20merged-238636?style=flat-square&logo=git&logoColor=white" />
+        <img src="https://img.shields.io/badge/1%20merged-8957e5?style=flat-square&logo=git&logoColor=white" />
       </td>
       <td align="center">
         <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" />
@@ -128,7 +128,7 @@
         <a href="https://github.com/langchain-ai/langchainjs"><img src="https://avatars.githubusercontent.com/u/126733545?v=4&s=20" width="20" height="20" /> <strong>langchain-ai/langchainjs</strong></a>
       </td>
       <td align="center">
-        <img src="https://img.shields.io/badge/1%20merged-238636?style=flat-square&logo=git&logoColor=white" />
+        <img src="https://img.shields.io/badge/1%20merged-8957e5?style=flat-square&logo=git&logoColor=white" />
       </td>
       <td align="center">
         <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
@@ -139,7 +139,7 @@
         <a href="https://github.com/prometheus/prometheus"><img src="https://avatars.githubusercontent.com/u/3380462?v=4&s=20" width="20" height="20" /> <strong>prometheus/prometheus</strong></a>
       </td>
       <td align="center">
-        <img src="https://img.shields.io/badge/1%20merged-238636?style=flat-square&logo=git&logoColor=white" />
+        <img src="https://img.shields.io/badge/1%20merged-8957e5?style=flat-square&logo=git&logoColor=white" />
       </td>
       <td align="center">
         <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" />

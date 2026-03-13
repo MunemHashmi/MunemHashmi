@@ -228,7 +228,7 @@ async function main() {
       `        <a href="${repo.html_url}"><img src="${avatarUrl}" width="20" height="20" /> <strong>${fullName}</strong></a>`,
       '      </td>',
       '      <td align="center">',
-      `        <img src="https://img.shields.io/badge/${count}%20merged-238636?style=flat-square&logo=git&logoColor=white" />`,
+      `        <img src="https://img.shields.io/badge/${count}%20merged-8957e5?style=flat-square&logo=git&logoColor=white" />`,
       '      </td>',
       '      <td align="center">',
       `        ${langBadge}`,
