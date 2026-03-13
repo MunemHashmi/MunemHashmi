@@ -24,6 +24,18 @@
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css3&logoColor=white)
 <!-- LANGS:END -->
 
+## Merged Contributions
+
+<!-- MERGED:START -->
+| Project | Merged PRs | Tech |
+|---|---|---|
+| <img src="https://avatars.githubusercontent.com/u/252820863?v=4&s=20" width="20" height="20" style="vertical-align: middle;" /> [`openclaw/clawhub`](https://github.com/openclaw/clawhub) | ![Merged](https://img.shields.io/badge/4%20merged-8957e5?style=flat-square&logo=github) | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) |
+| <img src="https://avatars.githubusercontent.com/u/21992475?v=4&s=20" width="20" height="20" style="vertical-align: middle;" /> [`pulumi/pulumi-command`](https://github.com/pulumi/pulumi-command) | ![Merged](https://img.shields.io/badge/2%20merged-8957e5?style=flat-square&logo=github) | ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white) |
+| <img src="https://avatars.githubusercontent.com/u/49917779?v=4&s=20" width="20" height="20" style="vertical-align: middle;" /> [`kedacore/keda`](https://github.com/kedacore/keda) | ![Merged](https://img.shields.io/badge/1%20merged-8957e5?style=flat-square&logo=github) | ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white) |
+| <img src="https://avatars.githubusercontent.com/u/126733545?v=4&s=20" width="20" height="20" style="vertical-align: middle;" /> [`langchain-ai/langchainjs`](https://github.com/langchain-ai/langchainjs) | ![Merged](https://img.shields.io/badge/1%20merged-8957e5?style=flat-square&logo=github) | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) |
+| <img src="https://avatars.githubusercontent.com/u/3380462?v=4&s=20" width="20" height="20" style="vertical-align: middle;" /> [`prometheus/prometheus`](https://github.com/prometheus/prometheus) | ![Merged](https://img.shields.io/badge/1%20merged-8957e5?style=flat-square&logo=github) | ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white) |
+<!-- MERGED:END -->
+
 ## Merge Radar
 
 > Refreshed hourly from public GitHub activity.
@@ -81,7 +93,7 @@
     <td valign="top">
       <sub><b>30-day pulse</b><br/>35 PRs opened<br/>9 PRs merged</sub>
       <br/><br/>
-      <sub>Updated 2026-03-13 18:53 UTC</sub>
+      <sub>Updated 2026-03-13 18:58 UTC</sub>
     </td>
   </tr>
 </table>

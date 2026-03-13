@@ -186,6 +186,8 @@ async function main() {
     listOwnedRepos(owner),
   ]);
 
+  const mergedItems = await searchAllIssues(`${publicPRQuery} is:merged`);
+
   const acceptanceRate = (mergedPRs / Math.max(closedPRs, 1)) * 100;
   const totalStars = ownedRepos
     .filter((repo) => !repo.fork)
@@ -193,6 +195,25 @@ async function main() {
   const reposContributed = new Set(
     allPRs.map((item) => item.repository_url.split('/').slice(-2).join('/')),
   ).size;
+
+  // Group merged PRs by repo
+  const mergedByRepo = new Map();
+  for (const item of mergedItems) {
+    const fullName = item.repository_url.split('/').slice(-2).join('/');
+    if (!mergedByRepo.has(fullName)) {
+      mergedByRepo.set(fullName, { count: 0, fullName });
+    }
+    mergedByRepo.get(fullName).count += 1;
+  }
+
+  // Fetch repo details for merged contributions and sort by count desc
+  const mergedRepoEntries = [...mergedByRepo.values()].sort((a, b) => b.count - a.count);
+  const mergedRepoDetails = await Promise.all(
+    mergedRepoEntries.map(async (entry) => {
+      const repo = await gh(`/repos/${entry.fullName}`);
+      return { ...entry, repo };
+    }),
+  );
 
   const badgeBlock = [
     '<p>',
@@ -210,6 +231,28 @@ async function main() {
   ].join('\n');
 
   const langBadges = buildLangBadges(ownedRepos);
+
+  // Merged contributions table
+  const mergedContribRows = mergedRepoDetails.map(({ fullName, count, repo }) => {
+    const lang = repo.language || '';
+    const meta = langMeta[lang] || { color: '555555' };
+    const encodedLang = lang.replace(/ /g, '%20').replace(/#/g, '%23').replace(/\+/g, '%2B');
+    const textColor = meta.textColor || 'white';
+    const logoPart = meta.logo ? `&logo=${meta.logo}&logoColor=${textColor}` : '';
+    const langBadge = lang
+      ? `![${lang}](https://img.shields.io/badge/${encodedLang}-${meta.color}?style=flat-square${logoPart})`
+      : '';
+    const mergedBadge = `![Merged](https://img.shields.io/badge/${count}%20merged-8957e5?style=flat-square&logo=github)`;
+    const avatarUrl = `${repo.owner.avatar_url}&s=20`;
+    const projectCol = `<img src="${avatarUrl}" width="20" height="20" style="vertical-align: middle;" /> [\`${fullName}\`](${repo.html_url})`;
+    return `| ${projectCol} | ${mergedBadge} | ${langBadge} |`;
+  });
+
+  const mergedContribBlock = [
+    '| Project | Merged PRs | Tech |',
+    '|---|---|---|',
+    ...mergedContribRows,
+  ].join('\n');
 
   const now = formatTimestamp(new Date());
   const numWidth = Math.max(String(totalPRs).length, 3);
@@ -296,6 +339,7 @@ async function main() {
 
   readme = replaceBlock(readme, '<!-- BADGES:START -->', '<!-- BADGES:END -->', badgeBlock);
   readme = replaceBlock(readme, '<!-- LANGS:START -->', '<!-- LANGS:END -->', langBadges);
+  readme = replaceBlock(readme, '<!-- MERGED:START -->', '<!-- MERGED:END -->', mergedContribBlock);
   readme = replaceBlock(readme, '<!-- STATS:START -->', '<!-- STATS:END -->', statsBlock);
   readme = replaceBlock(readme, '<!-- OSS_SIGNAL:START -->', '<!-- OSS_SIGNAL:END -->', ossSignalBlock);
 
