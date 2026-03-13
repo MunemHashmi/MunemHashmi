@@ -72,7 +72,7 @@
     <td valign="top">
       <sub><b>30-day pulse</b><br/>35 PRs opened<br/>9 PRs merged</sub>
       <br/><br/>
-      <sub>Updated 2026-03-13 19:09 UTC</sub>
+      <sub>Updated 2026-03-13 19:13 UTC</sub>
     </td>
   </tr>
 </table>
@@ -86,38 +86,34 @@
     <tr>
       <th align="left">Project</th>
       <th align="center">Merged PRs</th>
+      <th align="center">Stars</th>
       <th align="center">Tech</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>
-        <a href="https://github.com/openclaw/clawhub"><img src="https://avatars.githubusercontent.com/u/252820863?v=4&s=20" width="20" height="20" /> <strong>openclaw/clawhub</strong></a>
+        <a href="https://github.com/openclaw/clawhub/pulls?q=is%3Apr+author%3AMunemHashmi+is%3Amerged"><img src="https://avatars.githubusercontent.com/u/252820863?v=4&s=20" width="20" height="20" /> <strong>openclaw/clawhub</strong></a>
       </td>
       <td align="center">
         <img src="https://img.shields.io/badge/4%20merged-8957e5?style=flat-square&logo=git&logoColor=white" />
       </td>
       <td align="center">
+        <img src="https://img.shields.io/badge/%E2%AD%90%205.8K-f5b301?style=flat-square" />
+      </td>
+      <td align="center">
         <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
       </td>
     </tr>
     <tr>
       <td>
-        <a href="https://github.com/pulumi/pulumi-command"><img src="https://avatars.githubusercontent.com/u/21992475?v=4&s=20" width="20" height="20" /> <strong>pulumi/pulumi-command</strong></a>
+        <a href="https://github.com/pulumi/pulumi-command/pulls?q=is%3Apr+author%3AMunemHashmi+is%3Amerged"><img src="https://avatars.githubusercontent.com/u/21992475?v=4&s=20" width="20" height="20" /> <strong>pulumi/pulumi-command</strong></a>
       </td>
       <td align="center">
         <img src="https://img.shields.io/badge/2%20merged-8957e5?style=flat-square&logo=git&logoColor=white" />
       </td>
       <td align="center">
-        <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" />
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <a href="https://github.com/kedacore/keda"><img src="https://avatars.githubusercontent.com/u/49917779?v=4&s=20" width="20" height="20" /> <strong>kedacore/keda</strong></a>
-      </td>
-      <td align="center">
-        <img src="https://img.shields.io/badge/1%20merged-8957e5?style=flat-square&logo=git&logoColor=white" />
+        <img src="https://img.shields.io/badge/%E2%AD%90%2078-f5b301?style=flat-square" />
       </td>
       <td align="center">
         <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" />
@@ -125,10 +121,27 @@
     </tr>
     <tr>
       <td>
-        <a href="https://github.com/langchain-ai/langchainjs"><img src="https://avatars.githubusercontent.com/u/126733545?v=4&s=20" width="20" height="20" /> <strong>langchain-ai/langchainjs</strong></a>
+        <a href="https://github.com/kedacore/keda/pulls?q=is%3Apr+author%3AMunemHashmi+is%3Amerged"><img src="https://avatars.githubusercontent.com/u/49917779?v=4&s=20" width="20" height="20" /> <strong>kedacore/keda</strong></a>
       </td>
       <td align="center">
         <img src="https://img.shields.io/badge/1%20merged-8957e5?style=flat-square&logo=git&logoColor=white" />
+      </td>
+      <td align="center">
+        <img src="https://img.shields.io/badge/%E2%AD%90%2010K-f5b301?style=flat-square" />
+      </td>
+      <td align="center">
+        <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" />
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://github.com/langchain-ai/langchainjs/pulls?q=is%3Apr+author%3AMunemHashmi+is%3Amerged"><img src="https://avatars.githubusercontent.com/u/126733545?v=4&s=20" width="20" height="20" /> <strong>langchain-ai/langchainjs</strong></a>
+      </td>
+      <td align="center">
+        <img src="https://img.shields.io/badge/1%20merged-8957e5?style=flat-square&logo=git&logoColor=white" />
+      </td>
+      <td align="center">
+        <img src="https://img.shields.io/badge/%E2%AD%90%2017.2K-f5b301?style=flat-square" />
       </td>
       <td align="center">
         <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
@@ -136,10 +149,13 @@
     </tr>
     <tr>
       <td>
-        <a href="https://github.com/prometheus/prometheus"><img src="https://avatars.githubusercontent.com/u/3380462?v=4&s=20" width="20" height="20" /> <strong>prometheus/prometheus</strong></a>
+        <a href="https://github.com/prometheus/prometheus/pulls?q=is%3Apr+author%3AMunemHashmi+is%3Amerged"><img src="https://avatars.githubusercontent.com/u/3380462?v=4&s=20" width="20" height="20" /> <strong>prometheus/prometheus</strong></a>
       </td>
       <td align="center">
         <img src="https://img.shields.io/badge/1%20merged-8957e5?style=flat-square&logo=git&logoColor=white" />
+      </td>
+      <td align="center">
+        <img src="https://img.shields.io/badge/%E2%AD%90%2063.2K-f5b301?style=flat-square" />
       </td>
       <td align="center">
         <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" />
@@ -171,5 +187,17 @@
 <!-- OSS_SIGNAL:END -->
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=MunemHashmi&hide_border=true&theme=transparent" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=MunemHashmi&hide_border=true&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=MunemHashmi&hide_border=true&theme=default" />
+    <img src="https://streak-stats.demolab.com?user=MunemHashmi&hide_border=true&theme=transparent" />
+  </picture>
+</div>
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=MunemHashmi&hide_border=true&theme=github-dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=MunemHashmi&hide_border=true&theme=github-light" />
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=MunemHashmi&hide_border=true&theme=github-dark" />
+  </picture>
 </div>

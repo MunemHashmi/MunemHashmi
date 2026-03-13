@@ -222,13 +222,18 @@ async function main() {
       ? `<img src="https://img.shields.io/badge/${encodedLang}-${meta.color}?style=flat-square${logoPart}" />`
       : '';
     const avatarUrl = `${repo.owner.avatar_url}&s=20`;
+    const prSearchUrl = `https://github.com/${fullName}/pulls?q=is%3Apr+author%3A${owner}+is%3Amerged`;
+    const starsDisplay = formatCompactNumber(repo.stargazers_count);
     return [
       '    <tr>',
       '      <td>',
-      `        <a href="${repo.html_url}"><img src="${avatarUrl}" width="20" height="20" /> <strong>${fullName}</strong></a>`,
+      `        <a href="${prSearchUrl}"><img src="${avatarUrl}" width="20" height="20" /> <strong>${fullName}</strong></a>`,
       '      </td>',
       '      <td align="center">',
       `        <img src="https://img.shields.io/badge/${count}%20merged-8957e5?style=flat-square&logo=git&logoColor=white" />`,
+      '      </td>',
+      '      <td align="center">',
+      `        <img src="https://img.shields.io/badge/%E2%AD%90%20${encodeURIComponent(starsDisplay)}-f5b301?style=flat-square" />`,
       '      </td>',
       '      <td align="center">',
       `        ${langBadge}`,
@@ -243,6 +248,7 @@ async function main() {
     '    <tr>',
     '      <th align="left">Project</th>',
     '      <th align="center">Merged PRs</th>',
+    '      <th align="center">Stars</th>',
     '      <th align="center">Tech</th>',
     '    </tr>',
     '  </thead>',
