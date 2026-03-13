@@ -15,7 +15,70 @@
 </p>
 <!-- BADGES:END -->
 
-## Merged Contributions
+## Merge Radar
+
+> Refreshed hourly from public GitHub activity.
+
+<!-- STATS:START -->
+<table>
+  <tr>
+    <td align="center" width="25%">
+      <br/>
+      <a href="https://github.com/pulls?q=is%3Apr+author%3AMunemHashmi+is%3Aclosed">
+        <img src="https://img.shields.io/badge/42.9%25-2ea043?style=for-the-badge" />
+      </a><br/>
+      <sub><b>MERGE RATE</b></sub><br/>
+      <sub>9 / 21 closed</sub>
+      <br/><br/>
+    </td>
+    <td align="center" width="25%">
+      <br/>
+      <a href="https://github.com/pulls?q=is%3Apr+author%3AMunemHashmi">
+        <img src="https://img.shields.io/badge/36-2f81f7?style=for-the-badge" />
+      </a><br/>
+      <sub><b>TOTAL PRS</b></sub><br/>
+      <sub>all time</sub>
+      <br/><br/>
+    </td>
+    <td align="center" width="25%">
+      <br/>
+      <a href="https://github.com/pulls?q=is%3Apr+author%3AMunemHashmi+is%3Aopen">
+        <img src="https://img.shields.io/badge/15-f85149?style=for-the-badge" />
+      </a><br/>
+      <sub><b>IN FLIGHT</b></sub><br/>
+      <sub>open PRs</sub>
+      <br/><br/>
+    </td>
+    <td align="center" width="25%">
+      <br/>
+      <a href="https://github.com/pulls?q=is%3Apr+author%3AMunemHashmi">
+        <img src="https://img.shields.io/badge/9-a371f7?style=for-the-badge" />
+      </a><br/>
+      <sub><b>REPOS TOUCHED</b></sub><br/>
+      <sub>via PRs</sub>
+      <br/><br/>
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td>
+      <code>MERGED █████░░░░░░░░░░░░░░░   9</code><br/>
+      <code>OPEN   ████████░░░░░░░░░░░░  15</code><br/>
+      <code>CLOSED ████████████░░░░░░░░  21</code><br/>
+      <code>TOTAL  ████████████████████  36</code>
+    </td>
+    <td valign="top">
+      <sub><b>30-day pulse</b><br/>35 PRs opened<br/>9 PRs merged</sub>
+      <br/><br/>
+      <sub>Updated 2026-03-13 19:06 UTC</sub>
+    </td>
+  </tr>
+</table>
+<!-- STATS:END -->
+
+## Open Source Contributions
 
 <!-- MERGED:START -->
 <table>
@@ -85,69 +148,6 @@
   </tbody>
 </table>
 <!-- MERGED:END -->
-
-## Merge Radar
-
-> Refreshed hourly from public GitHub activity.
-
-<!-- STATS:START -->
-<table>
-  <tr>
-    <td align="center" width="25%">
-      <br/>
-      <a href="https://github.com/pulls?q=is%3Apr+author%3AMunemHashmi+is%3Aclosed">
-        <img src="https://img.shields.io/badge/42.9%25-2ea043?style=for-the-badge" />
-      </a><br/>
-      <sub><b>MERGE RATE</b></sub><br/>
-      <sub>9 / 21 closed</sub>
-      <br/><br/>
-    </td>
-    <td align="center" width="25%">
-      <br/>
-      <a href="https://github.com/pulls?q=is%3Apr+author%3AMunemHashmi">
-        <img src="https://img.shields.io/badge/36-2f81f7?style=for-the-badge" />
-      </a><br/>
-      <sub><b>TOTAL PRS</b></sub><br/>
-      <sub>all time</sub>
-      <br/><br/>
-    </td>
-    <td align="center" width="25%">
-      <br/>
-      <a href="https://github.com/pulls?q=is%3Apr+author%3AMunemHashmi+is%3Aopen">
-        <img src="https://img.shields.io/badge/15-f85149?style=for-the-badge" />
-      </a><br/>
-      <sub><b>IN FLIGHT</b></sub><br/>
-      <sub>open PRs</sub>
-      <br/><br/>
-    </td>
-    <td align="center" width="25%">
-      <br/>
-      <a href="https://github.com/pulls?q=is%3Apr+author%3AMunemHashmi">
-        <img src="https://img.shields.io/badge/9-a371f7?style=for-the-badge" />
-      </a><br/>
-      <sub><b>REPOS TOUCHED</b></sub><br/>
-      <sub>via PRs</sub>
-      <br/><br/>
-    </td>
-  </tr>
-</table>
-
-<table>
-  <tr>
-    <td>
-      <code>MERGED █████░░░░░░░░░░░░░░░   9</code><br/>
-      <code>OPEN   ████████░░░░░░░░░░░░  15</code><br/>
-      <code>CLOSED ████████████░░░░░░░░  21</code><br/>
-      <code>TOTAL  ████████████████████  36</code>
-    </td>
-    <td valign="top">
-      <sub><b>30-day pulse</b><br/>35 PRs opened<br/>9 PRs merged</sub>
-      <br/><br/>
-      <sub>Updated 2026-03-13 19:02 UTC</sub>
-    </td>
-  </tr>
-</table>
-<!-- STATS:END -->
 
 ## Open Source Footprint
 
