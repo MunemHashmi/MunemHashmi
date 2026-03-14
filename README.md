@@ -188,9 +188,9 @@
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=MunemHashmi&hide_border=true&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=MunemHashmi&hide_border=true&theme=default" />
-    <img src="https://streak-stats.demolab.com?user=MunemHashmi&hide_border=true&theme=transparent" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=MunemHashmi&hide_border=true&theme=dark&timezone=Asia/Karachi" />
+    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=MunemHashmi&hide_border=true&theme=default&timezone=Asia/Karachi" />
+    <img src="https://streak-stats.demolab.com?user=MunemHashmi&hide_border=true&theme=transparent&timezone=Asia/Karachi" />
   </picture>
 </div>
 
