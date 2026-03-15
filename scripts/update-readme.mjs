@@ -313,7 +313,6 @@ async function main() {
     '    <td valign="top">',
     `      <sub><b>30-day pulse</b><br/>${prs30d} PRs opened<br/>${merged30d} PRs merged</sub>`,
     '      <br/><br/>',
-    `      <sub>Updated ${now}</sub>`,
     '    </td>',
     '  </tr>',
     '</table>',
