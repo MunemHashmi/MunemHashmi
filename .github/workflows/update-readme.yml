@@ -2,7 +2,7 @@ name: Update README Stats
 
 on:
   schedule:
-    - cron: "0 * * * *" # every hour
+    - cron: "0 19 * * *" # daily at 12 AM PKT (UTC+5)
   workflow_dispatch: # manual trigger
 
 jobs:
