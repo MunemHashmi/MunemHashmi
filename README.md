@@ -15,7 +15,6 @@
 </p>
 <!-- BADGES:END -->
 
-> Refreshed hourly from public GitHub activity.
 
 ## Merge Radar
 
