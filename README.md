@@ -1,4 +1,4 @@
-# Hi! I'm Munem Hashmi 👋
+# Hi! I'm Munem Hashmi
 
 <!-- BADGES:START -->
 <p>
