@@ -2,7 +2,7 @@
 
 <!-- BADGES:START -->
 <p>
-  <a href="https://github.com/MunemHashmi?tab=followers"><img src="https://img.shields.io/badge/Followers-6-181717?style=for-the-badge&logo=github" /></a>
+  <a href="https://github.com/MunemHashmi?tab=followers"><img src="https://img.shields.io/badge/Followers-7-181717?style=for-the-badge&logo=github" /></a>
   <a href="https://github.com/MunemHashmi?tab=repositories"><img src="https://img.shields.io/badge/Public%20Repos-24-181717?style=for-the-badge&logo=github" /></a>
   <a href="https://github.com/MunemHashmi?tab=repositories"><img src="https://img.shields.io/badge/Stars%20Earned-9-f5b301?style=for-the-badge&logo=github" /></a>
   <a href="https://github.com/MunemHashmi"><img src="https://komarev.com/ghpvc/?username=MunemHashmi&style=for-the-badge&color=0e75b6" /></a>
@@ -139,7 +139,7 @@
         <img src="https://img.shields.io/badge/4%20merged-8957e5?style=flat-square&logo=git&logoColor=white" />
       </td>
       <td align="center">
-        <img src="https://img.shields.io/badge/%E2%AD%90%206.7K-f5b301?style=flat-square" />
+        <img src="https://img.shields.io/badge/%E2%AD%90%206.8K-f5b301?style=flat-square" />
       </td>
       <td align="center">
         <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
@@ -170,7 +170,7 @@
   <tr>
     <td width="280">
       <strong>Public footprint</strong><br />
-      <sub>24 public repos, 9 stars earned, 6 followers.</sub>
+      <sub>24 public repos, 9 stars earned, 7 followers.</sub>
     </td>
     <td width="280">
       <strong>Contribution spread</strong><br />
