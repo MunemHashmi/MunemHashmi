@@ -69,7 +69,7 @@
       <code>TOTAL  ████████████████████  37</code>
     </td>
     <td valign="top">
-      <sub><b>30-day pulse</b><br/>5 PRs opened<br/>3 PRs merged</sub>
+      <sub><b>30-day pulse</b><br/>4 PRs opened<br/>3 PRs merged</sub>
       <br/><br/>
     </td>
   </tr>
@@ -111,7 +111,7 @@
         <img src="https://img.shields.io/badge/1%20merged-8957e5?style=flat-square&logo=git&logoColor=white" />
       </td>
       <td align="center">
-        <img src="https://img.shields.io/badge/%E2%AD%90%2017.4K-f5b301?style=flat-square" />
+        <img src="https://img.shields.io/badge/%E2%AD%90%2017.5K-f5b301?style=flat-square" />
       </td>
       <td align="center">
         <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
@@ -178,7 +178,7 @@
     </td>
     <td width="280">
       <strong>Recent pace</strong><br />
-      <sub>5 public PRs opened and 3 merged in the last 30 days.</sub>
+      <sub>4 public PRs opened and 3 merged in the last 30 days.</sub>
     </td>
   </tr>
 </table>
