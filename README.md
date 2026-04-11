@@ -69,7 +69,7 @@
       <code>TOTAL  ████████████████████  37</code>
     </td>
     <td valign="top">
-      <sub><b>30-day pulse</b><br/>2 PRs opened<br/>2 PRs merged</sub>
+      <sub><b>30-day pulse</b><br/>2 PRs opened<br/>1 PRs merged</sub>
       <br/><br/>
     </td>
   </tr>
@@ -178,7 +178,7 @@
     </td>
     <td width="280">
       <strong>Recent pace</strong><br />
-      <sub>2 public PRs opened and 2 merged in the last 30 days.</sub>
+      <sub>2 public PRs opened and 1 merged in the last 30 days.</sub>
     </td>
   </tr>
 </table>
