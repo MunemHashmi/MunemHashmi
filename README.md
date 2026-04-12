@@ -8,9 +8,9 @@
   <a href="https://github.com/MunemHashmi"><img src="https://komarev.com/ghpvc/?username=MunemHashmi&style=for-the-badge&color=0e75b6" /></a>
 </p>
 <p>
-  <a href="https://github.com/pulls?q=is%3Apr+author%3AMunemHashmi"><img src="https://img.shields.io/badge/Merge%20Rate-32.1%25-2ea043?style=for-the-badge&logo=git" /></a>
+  <a href="https://github.com/pulls?q=is%3Apr+author%3AMunemHashmi"><img src="https://img.shields.io/badge/Merge%20Rate-30.0%25-2ea043?style=for-the-badge&logo=git" /></a>
   <a href="https://github.com/pulls?q=is%3Apr+author%3AMunemHashmi"><img src="https://img.shields.io/badge/PRs%20Merged-9-238636?style=for-the-badge&logo=github" /></a>
-  <a href="https://github.com/pulls?q=is%3Apr+author%3AMunemHashmi"><img src="https://img.shields.io/badge/Open%20PRs-9-f85149?style=for-the-badge&logo=github" /></a>
+  <a href="https://github.com/pulls?q=is%3Apr+author%3AMunemHashmi"><img src="https://img.shields.io/badge/Open%20PRs-7-f85149?style=for-the-badge&logo=github" /></a>
   <a href="https://github.com/pulls?q=is%3Apr+author%3AMunemHashmi"><img src="https://img.shields.io/badge/Repos%20via%20PRs-10-2f81f7?style=for-the-badge&logo=github" /></a>
 </p>
 <!-- BADGES:END -->
@@ -24,10 +24,10 @@
     <td align="center" width="25%">
       <br/>
       <a href="https://github.com/pulls?q=is%3Apr+author%3AMunemHashmi+is%3Aclosed">
-        <img src="https://img.shields.io/badge/32.1%25-2ea043?style=for-the-badge" />
+        <img src="https://img.shields.io/badge/30.0%25-2ea043?style=for-the-badge" />
       </a><br/>
       <sub><b>MERGE RATE</b></sub><br/>
-      <sub>9 / 28 closed</sub>
+      <sub>9 / 30 closed</sub>
       <br/><br/>
     </td>
     <td align="center" width="25%">
@@ -42,7 +42,7 @@
     <td align="center" width="25%">
       <br/>
       <a href="https://github.com/pulls?q=is%3Apr+author%3AMunemHashmi+is%3Aopen">
-        <img src="https://img.shields.io/badge/9-f85149?style=for-the-badge" />
+        <img src="https://img.shields.io/badge/7-f85149?style=for-the-badge" />
       </a><br/>
       <sub><b>IN FLIGHT</b></sub><br/>
       <sub>open PRs</sub>
@@ -64,12 +64,12 @@
   <tr>
     <td>
       <code>MERGED █████░░░░░░░░░░░░░░░   9</code><br/>
-      <code>OPEN   █████░░░░░░░░░░░░░░░   9</code><br/>
-      <code>CLOSED ███████████████░░░░░  28</code><br/>
+      <code>OPEN   ████░░░░░░░░░░░░░░░░   7</code><br/>
+      <code>CLOSED ████████████████░░░░  30</code><br/>
       <code>TOTAL  ████████████████████  37</code>
     </td>
     <td valign="top">
-      <sub><b>30-day pulse</b><br/>2 PRs opened<br/>1 PRs merged</sub>
+      <sub><b>30-day pulse</b><br/>2 PRs opened<br/>0 PRs merged</sub>
       <br/><br/>
     </td>
   </tr>
@@ -139,7 +139,7 @@
         <img src="https://img.shields.io/badge/4%20merged-8957e5?style=flat-square&logo=git&logoColor=white" />
       </td>
       <td align="center">
-        <img src="https://img.shields.io/badge/%E2%AD%90%207.8K-f5b301?style=flat-square" />
+        <img src="https://img.shields.io/badge/%E2%AD%90%207.9K-f5b301?style=flat-square" />
       </td>
       <td align="center">
         <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
@@ -178,7 +178,7 @@
     </td>
     <td width="280">
       <strong>Recent pace</strong><br />
-      <sub>2 public PRs opened and 1 merged in the last 30 days.</sub>
+      <sub>2 public PRs opened and 0 merged in the last 30 days.</sub>
     </td>
   </tr>
 </table>
