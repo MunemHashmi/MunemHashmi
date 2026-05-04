@@ -153,7 +153,7 @@
         <img src="https://img.shields.io/badge/2%20merged-8957e5?style=flat-square&logo=git&logoColor=white" />
       </td>
       <td align="center">
-        <img src="https://img.shields.io/badge/%E2%AD%90%2078-f5b301?style=flat-square" />
+        <img src="https://img.shields.io/badge/%E2%AD%90%2079-f5b301?style=flat-square" />
       </td>
       <td align="center">
         <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" />
