@@ -8,9 +8,9 @@
   <a href="https://github.com/MunemHashmi"><img src="https://komarev.com/ghpvc/?username=MunemHashmi&style=for-the-badge&color=0e75b6" /></a>
 </p>
 <p>
-  <a href="https://github.com/pulls?q=is%3Apr+author%3AMunemHashmi"><img src="https://img.shields.io/badge/Merge%20Rate-27.3%25-2ea043?style=for-the-badge&logo=git" /></a>
+  <a href="https://github.com/pulls?q=is%3Apr+author%3AMunemHashmi"><img src="https://img.shields.io/badge/Merge%20Rate-26.5%25-2ea043?style=for-the-badge&logo=git" /></a>
   <a href="https://github.com/pulls?q=is%3Apr+author%3AMunemHashmi"><img src="https://img.shields.io/badge/PRs%20Merged-9-238636?style=for-the-badge&logo=github" /></a>
-  <a href="https://github.com/pulls?q=is%3Apr+author%3AMunemHashmi"><img src="https://img.shields.io/badge/Open%20PRs-4-f85149?style=for-the-badge&logo=github" /></a>
+  <a href="https://github.com/pulls?q=is%3Apr+author%3AMunemHashmi"><img src="https://img.shields.io/badge/Open%20PRs-3-f85149?style=for-the-badge&logo=github" /></a>
   <a href="https://github.com/pulls?q=is%3Apr+author%3AMunemHashmi"><img src="https://img.shields.io/badge/Repos%20via%20PRs-10-2f81f7?style=for-the-badge&logo=github" /></a>
 </p>
 <!-- BADGES:END -->
@@ -24,10 +24,10 @@
     <td align="center" width="25%">
       <br/>
       <a href="https://github.com/pulls?q=is%3Apr+author%3AMunemHashmi+is%3Aclosed">
-        <img src="https://img.shields.io/badge/27.3%25-2ea043?style=for-the-badge" />
+        <img src="https://img.shields.io/badge/26.5%25-2ea043?style=for-the-badge" />
       </a><br/>
       <sub><b>MERGE RATE</b></sub><br/>
-      <sub>9 / 33 closed</sub>
+      <sub>9 / 34 closed</sub>
       <br/><br/>
     </td>
     <td align="center" width="25%">
@@ -42,7 +42,7 @@
     <td align="center" width="25%">
       <br/>
       <a href="https://github.com/pulls?q=is%3Apr+author%3AMunemHashmi+is%3Aopen">
-        <img src="https://img.shields.io/badge/4-f85149?style=for-the-badge" />
+        <img src="https://img.shields.io/badge/3-f85149?style=for-the-badge" />
       </a><br/>
       <sub><b>IN FLIGHT</b></sub><br/>
       <sub>open PRs</sub>
@@ -64,8 +64,8 @@
   <tr>
     <td>
       <code>MERGED █████░░░░░░░░░░░░░░░   9</code><br/>
-      <code>OPEN   ██░░░░░░░░░░░░░░░░░░   4</code><br/>
-      <code>CLOSED ██████████████████░░  33</code><br/>
+      <code>OPEN   ██░░░░░░░░░░░░░░░░░░   3</code><br/>
+      <code>CLOSED ██████████████████░░  34</code><br/>
       <code>TOTAL  ████████████████████  37</code>
     </td>
     <td valign="top">
