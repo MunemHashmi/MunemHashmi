@@ -2,7 +2,7 @@
 
 <!-- BADGES:START -->
 <p>
-  <a href="https://github.com/MunemHashmi?tab=followers"><img src="https://img.shields.io/badge/Followers-8-181717?style=for-the-badge&logo=github" /></a>
+  <a href="https://github.com/MunemHashmi?tab=followers"><img src="https://img.shields.io/badge/Followers-7-181717?style=for-the-badge&logo=github" /></a>
   <a href="https://github.com/MunemHashmi?tab=repositories"><img src="https://img.shields.io/badge/Public%20Repos-24-181717?style=for-the-badge&logo=github" /></a>
   <a href="https://github.com/MunemHashmi?tab=repositories"><img src="https://img.shields.io/badge/Stars%20Earned-9-f5b301?style=for-the-badge&logo=github" /></a>
   <a href="https://github.com/MunemHashmi"><img src="https://komarev.com/ghpvc/?username=MunemHashmi&style=for-the-badge&color=0e75b6" /></a>
@@ -170,7 +170,7 @@
   <tr>
     <td width="280">
       <strong>Public footprint</strong><br />
-      <sub>24 public repos, 9 stars earned, 8 followers.</sub>
+      <sub>24 public repos, 9 stars earned, 7 followers.</sub>
     </td>
     <td width="280">
       <strong>Contribution spread</strong><br />
